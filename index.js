@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
-const postRoute = require("./Routes/routes");
+const postRoute = require("../Instaclone Backend/routes/Routes.js");
 const cors = require("cors");
 app.use(express.json());
 app.use(cors());
